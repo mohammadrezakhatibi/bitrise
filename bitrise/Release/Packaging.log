@@ -1,0 +1,133 @@
+2020-12-22 12:59:44 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb95795ca80; archive(resolved)='<IDEArchive: 0x7fb953fb2c00>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb95795ca80; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fb95795ec00; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fb95795c530; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fb95770f600; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fb95753ce00; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fb9575414b0; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fb95738c460; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fb95738b4c0; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fb95737ead0; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='<IDEProvisioningBasicTeam: 0x7fb957384350; teamID='U5YBD55P5L', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fb9577116c0; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='(null)'>
+	<IDEDistributionContext: 0x7fb95737f720; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='(null)'>
+	<IDEDistributionContext: 0x7fb95735b230; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb95250b120>', team='(null)'>
+	<IDEDistributionContext: 0x7fb953fb3440; archive = '<IDEArchive: 0x7fb953fb2c00>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fb95795ca80>
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2020-12-22 12:59:44 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/mohammadreza/Documents/GitHub/bitrise/bitrise/bitrise.xcarchive/Products/Applications/bitrise.app' '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root/Payload/bitrise.app'
+2020-12-22 12:59:44 +0000  >>> Copying /Users/mohammadreza/Documents/GitHub/bitrise/bitrise/bitrise.xcarchive/Products/Applications/bitrise.app 
+2020-12-22 12:59:44 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-12-22 12:59:44 +0000  3895 bytes for ./_CodeSignature/CodeResources
+2020-12-22 12:59:44 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2020-12-22 12:59:44 +0000  930 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2020-12-22 12:59:44 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-12-22 12:59:44 +0000  1197 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2020-12-22 12:59:44 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2020-12-22 12:59:44 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-12-22 12:59:44 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2020-12-22 12:59:44 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-12-22 12:59:44 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-12-22 12:59:44 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-12-22 12:59:44 +0000  copying file ./embedded.mobileprovision ... 
+2020-12-22 12:59:44 +0000  7526 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2020-12-22 12:59:44 +0000  1467 bytes for ./Info.plist
+copying file ./bitrise ... 
+2020-12-22 12:59:44 +0000  171600 bytes for ./bitrise
+copying file ./PkgInfo ... 
+2020-12-22 12:59:44 +0000  8 bytes for ./PkgInfo
+2020-12-22 12:59:44 +0000 [MT] /usr/bin/ditto exited with 0
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2020-12-22 12:59:44 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2020-12-22 12:59:44 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2020-12-22 12:59:44 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2020-12-22 12:59:44 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root/Payload/bitrise.app/bitrise' '-r' '-o' '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root/Payload/bitrise.app/bitrise'
+2020-12-22 12:59:44 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-12-22 12:59:44 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2020-12-22 12:59:44 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2020-12-22 12:59:44 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2020-12-22 12:59:44 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root/Payload/bitrise.app/bitrise' '-verify_arch' 'arm64e'
+2020-12-22 12:59:44 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-12-22 12:59:44 +0000 [MT] Skipping architecture thinning for item "bitrise" because arch "arm64e" wasn't found
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionODRStep
+2020-12-22 12:59:44 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2020-12-22 12:59:44 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root/Payload/bitrise.app'
+2020-12-22 12:59:45 +0000 [MT] /usr/bin/xattr exited with 0
+2020-12-22 12:59:45 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2020-12-22 12:59:45 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb95732d9c0; bundleID='net.topchange.bitrise.bitrise', path='<DVTFilePath:0x7fb953fb2790:'/Users/mohammadreza/Documents/GitHub/bitrise/bitrise/bitrise.xcarchive/Products/Applications/bitrise.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb957706580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb9579677d0; name='Apple Development: Zalimkhan Koilakaev (9998Q6WJ5H)', hash='B8ED13B8CD7829994628307D3DAC7D1E7DDD7819', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb957958010>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-12-22 08:10:23 +0000''>', entitlements='{
+    "application-identifier" = "U5YBD55P5L.net.topchange.bitrise.bitrise";
+    "com.apple.developer.team-identifier" = U5YBD55P5L;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "U5YBD55P5L.net.topchange.bitrise.bitrise"
+    );
+}', teamID='U5YBD55P5L', identifier='net.topchange.bitrise.bitrise', executablePath='<DVTFilePath:0x7fb957545300:'/Users/mohammadreza/Documents/GitHub/bitrise/bitrise/bitrise.xcarchive/Products/Applications/bitrise.app/bitrise'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "U5YBD55P5L.net.topchange.bitrise.bitrise";
+    "com.apple.developer.team-identifier" = U5YBD55P5L;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "U5YBD55P5L.net.topchange.bitrise.bitrise"
+    );
+}
+2020-12-22 12:59:45 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb95732d9c0; bundleID='net.topchange.bitrise.bitrise', path='<DVTFilePath:0x7fb953fb2790:'/Users/mohammadreza/Documents/GitHub/bitrise/bitrise/bitrise.xcarchive/Products/Applications/bitrise.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb957706580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb957970280; name='Apple Development: Zalimkhan Koilakaev (9998Q6WJ5H)', hash='B8ED13B8CD7829994628307D3DAC7D1E7DDD7819', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb957970610>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-12-22 08:10:23 +0000''>', entitlements='{
+    "application-identifier" = "U5YBD55P5L.net.topchange.bitrise.bitrise";
+    "com.apple.developer.team-identifier" = U5YBD55P5L;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "U5YBD55P5L.net.topchange.bitrise.bitrise"
+    );
+}', teamID='U5YBD55P5L', identifier='net.topchange.bitrise.bitrise', executablePath='<DVTFilePath:0x7fb957545300:'/Users/mohammadreza/Documents/GitHub/bitrise/bitrise/bitrise.xcarchive/Products/Applications/bitrise.app/bitrise'>', hardenedRuntime='0'>'> to: /var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/entitlements~~~6KKFI8
+2020-12-22 12:59:45 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '3D7DFCFEE8262CFBEEA778F6DD1B3E605C8AA3DA' '--entitlements' '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/entitlements~~~6KKFI8' '--preserve-metadata=identifier,flags,runtime' '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root/Payload/bitrise.app'
+2020-12-22 12:59:45 +0000  /var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root/Payload/bitrise.app: signed app bundle with Mach-O thin (arm64) [net.topchange.bitrise.bitrise]
+2020-12-22 12:59:45 +0000 [MT] /usr/bin/codesign exited with 0
+2020-12-22 12:59:45 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2020-12-22 12:59:45 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-12-22 12:59:45 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2020-12-22 12:59:45 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root' '/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Packages/bitrise.ipa'
+2020-12-22 12:59:45 +0000  >>> Copying /var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root 
+2020-12-22 12:59:45 +0000  copying file ./Payload/bitrise.app/_CodeSignature/CodeResources ... 
+2020-12-22 12:59:45 +0000  3895 bytes for ./Payload/bitrise.app/_CodeSignature/CodeResources
+2020-12-22 12:59:45 +0000  copying file ./Payload/bitrise.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+930 bytes for ./Payload/bitrise.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/bitrise.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-12-22 12:59:45 +0000  1197 bytes for ./Payload/bitrise.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/bitrise.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/bitrise.app/Base.lproj/Main.storyboardc/Info.plist
+2020-12-22 12:59:45 +0000  copying file ./Payload/bitrise.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1197 bytes for ./Payload/bitrise.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/bitrise.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-12-22 12:59:45 +0000  896 bytes for ./Payload/bitrise.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/bitrise.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/bitrise.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/bitrise.app/embedded.mobileprovision ... 
+2020-12-22 12:59:45 +0000  9591 bytes for ./Payload/bitrise.app/embedded.mobileprovision
+2020-12-22 12:59:45 +0000  copying file ./Payload/bitrise.app/Info.plist ... 
+1467 bytes for ./Payload/bitrise.app/Info.plist
+copying file ./Payload/bitrise.app/bitrise ... 
+2020-12-22 12:59:45 +0000  89040 bytes for ./Payload/bitrise.app/bitrise
+copying file ./Payload/bitrise.app/PkgInfo ... 
+2020-12-22 12:59:45 +0000  8 bytes for ./Payload/bitrise.app/PkgInfo
+2020-12-22 12:59:45 +0000 [MT] /usr/bin/ditto exited with 0
+2020-12-22 12:59:45 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2020-12-22 12:59:45 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-12-22 12:59:45 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-12-22 12:59:45 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb95794b170:'/var/folders/s_/t07fc2g958s1qw9pk915zry00000gn/T/XcodeDistPipeline.~~~Mexim6/Root/Payload/bitrise.app'>
+2020-12-22 12:59:45 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

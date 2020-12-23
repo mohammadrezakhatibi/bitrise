@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bitrise.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>3D7DFCFEE8262CFBEEA778F6DD1B3E605C8AA3DA</string>
+				<key>dateExpires</key>
+				<string>12/22/21</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>U5YBD55P5L.net.topchange.bitrise.bitrise</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>U5YBD55P5L</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>U5YBD55P5L.net.topchange.bitrise.bitrise</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>bitrise.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>dcfce1bd-0076-4f6b-a458-82049e67a56a</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: net.topchange.bitrise.bitrise</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>U5YBD55P5L</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
